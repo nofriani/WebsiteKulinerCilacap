@@ -14,3 +14,12 @@ section {
 .max-height {
   max-height: 300px;
 }
+
+.card {
+  transition: 0.5s;
+}
+
+.card:hover {
+  scale: 1.1;
+  box-shadow: 5px 10px #888888;
+}
